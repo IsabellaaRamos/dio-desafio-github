@@ -1,0 +1,62 @@
+## O que é Git? :woman_technologist:
+
+**Git** é um sistema de controle de versão open-source, ou seja, gratuito. Ele é utilizado para a criação de um histórico de alterações em código-fonte de projetos de desenvolvimento de software. Foi desenvolvido por **Linus Torvalds**, o criador do sistema operacional Linux.
+
+- Por meio de sua utilização, podemos saber quais foram as alterações realizadas, quem fez cada uma das alterações e baixar essas mudanças em nossa máquina. Se necessário, revertê-las para uma versão anterior.
+
+
+
+## O que é GitHub?:woman_technologist:
+
+O **Github** é um repositório remoto, criado como um serviço online de hospedagem de repositórios do **Git**.
+
+Funciona como um servidor que agrega todas as modificações realizadas por cada uma das pessoas envolvidas em um projeto, unificando as diferentes versões de código e seus históricos, permitindo compartilhamento entre as equipes.
+
+- Além disso, o GitHub também conta com várias integrações com outros serviços online, permitindo o deploy automático de aplicação. Assim, garante a integração contínua e facilita o desenvolvimento.
+
+**Vamos começar por alguns comandos básicos no Git**.:woman_technologist:
+
+
+
+- **Markdown**
+
+Markdown é uma linguagem simples de marcação, é frequentemente usado para formatar arquivos README, para escrever mensagens em fóruns de discussão online e para criar rich text usando um editor de texto simples.
+
+- Exemplo: 
+-  #Título Nível 1.                    
+- ##Título Nível 2.
+- ##Título Nível 3.
+
+Basicamente, ele marca alterações nos textos (subtítulos, negrito, itálico etc) apenas com os símbolos do teclado, sem usar teclas de atalho, menus, selecionando o texto e sem aquele visual complexo - para os que não estão acostumados - de HTML.
+
+- **Comandos **:
+
+- **Git Status**
+  Para começar, iremos criar um atalho para o comando git status, cujo objetivo é exibir as condições do diretório de trabalho e da área de staging.
+
+  📌Exemplo: git status
+
+- **Git add**
+  Quando criamos, modificamos ou excluímos um arquivo, essas alterações ocorrerão em nosso ambiente local e não serão incluídas no próximo commit (a menos que alteremos as configurações).
+
+  📌Exemplo: git add "Arquivo"
+
+- **Git commit**
+   Esse comando visa definir um ponto de verificação no processo de desenvolvimento, para o qual você pode voltar mais tarde, se necessário.
+
+  📌Exemplo: git commit -m "mensagem explicando a mudança no código"
+
+- **Git push**
+  Após confirmar as alterações, a próxima coisa que você deseja fazer é enviar as alterações para o servidor remoto usando o comando git push.
+
+  📌Exemplo: git push <remote> <nome-do-branch>
+
+- **Git pull**
+  O git pull é usado para obter atualizações do repositório remoto. 
+
+  📌Exemplo: git pull <remote>
+
+- **Git revert**
+  Existem várias maneiras de desfazer nossas alterações local ou remotamente (dependendo da necessidade).
+
+  📌Exemplo: git revert 'número do hash'
